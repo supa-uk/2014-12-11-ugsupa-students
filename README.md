@@ -1,5 +1,5 @@
-2014-12-03-edinburgh
-====================
+2014-12-03-edinburgh-students
+=============================
 
 ARCHER Software Carpentry workshop.
 
