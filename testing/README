@@ -1,0 +1,26 @@
+Python Ant Colony TSP Solver
+-----------------------------
+
+Uses Ant Colony Optimization to solve the TSP.  See http://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms 
+
+anttsp.py is the file to run.  It reads from citiesAndDistances.pickled, which is a pickled 2D array with this format:
+CityName1  CityName2 ... CitNameN
+0           23               34         
+10           0               22
+.
+.
+.
+
+It is not necessary for the matrix to be symmetric i.e. the distance traveling from A to B need not be the distance from B to A  (if you have ever been to Italy and dealt with the mess of one-way streets you will understand how this applies).
+
+
+python anttsp.py <cities> <city data file> <output file>
+
+<cities> is the number of cities to visit.
+<city data file> is the pickled data file containing the city names and distances 2D array
+<output file> is where the best path will be written.
+
+
+Modified to not use threading - found issues running in Python 2.7.8 & Mac OS X 10.9.5 which stopping the program from terminating due to a lock/condition release issue.
+
+Note: To use the utilities in the util directory the python package: argparse needs to be installed in your Python environment.
