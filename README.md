@@ -1,6 +1,4 @@
-2014-12-03-edinburgh-students
-=============================
+2014-12-11-ugsupa-students
+==========================
 
-ARCHER Software Carpentry workshop.
-
-Please visit our [website](http://hpcarcher.github.io/2014-12-03-edinburgh/).
+Please visit our [website](http://supa-uk.github.io/2014-12-11-ugsupa/).
